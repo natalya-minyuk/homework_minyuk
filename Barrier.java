@@ -4,4 +4,7 @@ public interface Barrier {
 
     boolean walkThrough (Sportsmen sportsmen);
 
+    String getParam();
+    String getNameBarrier();
+
 }

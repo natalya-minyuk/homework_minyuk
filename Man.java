@@ -12,11 +12,16 @@ public class Man implements Sportsmen {
 
     @Override
     public int getMaxJump() {
-        return 0;
+        return maxJump;
     }
 
     @Override
     public int getMaxLength() {
-        return 0;
+        return maxLength;
+    }
+
+    @Override
+    public String getName() {
+        return "Человек";
     }
 }

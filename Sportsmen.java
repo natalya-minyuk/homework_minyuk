@@ -4,4 +4,6 @@ public interface Sportsmen {
 
     int getMaxJump();
     int getMaxLength();
+
+    String getName();
 }

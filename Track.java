@@ -12,4 +12,16 @@ public class Track implements Barrier {
     public boolean walkThrough(Sportsmen sportsmen) {
         return sportsmen.getMaxLength() >= length;
     }
+
+    @Override
+    public String getParam() {
+        return "length " + this.length;
+    }
+
+    @Override
+    public String getNameBarrier() {
+        return "беговая дорожка";
+    }
+
+
 }
